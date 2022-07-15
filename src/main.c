@@ -3360,9 +3360,9 @@ print_version (void)
   printf ("%sGNU Make %s\n", precede, version_string);
 
   if (!remote_description || *remote_description == '\0')
-    printf (_("%sBuilt for %s\n"), precede, make_host);
+    printf (_("%sBuilt for %s by Aris Karagiannidis e-mail:arkaragian@gmail.com\n"), precede, make_host);
   else
-    printf (_("%sBuilt for %s (%s)\n"),
+    printf (_("%sBuilt for %s (%s) by Aris Karagiannidis e-mail:arkaragian@gmail.com\n"),
             precede, make_host, remote_description);
 
   /* Print this untranslated.  The coding standards recommend translating the
