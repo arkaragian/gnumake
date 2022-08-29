@@ -21,6 +21,7 @@ set "gnuliburl=%svurl%/gnulib.git/plain"
 
 call :Download lib getloadavg.c
 call :Download lib intprops.h
+call :Download lib intprops-internal.h
 goto :Done
 
 :Download
